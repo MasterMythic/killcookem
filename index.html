@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#070807">
+  <meta name="description" content="Confidential feature film presentation for Kill Cook’em: Feast for Freedom.">
+  <title>Kill Cook’em: Feast for Freedom</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body class="locked">
+  <section class="gate" id="gate" aria-labelledby="gate-title">
+    <div class="grain"></div><div class="gate-art"></div>
+    <form class="gate-panel" id="access-form">
+      <div class="brand"><span>KILL</span><i>✦</i><b>COOK’EM</b></div>
+      <p class="kicker">CONFIDENTIAL · FEATURE FILM PRESENTATION</p>
+      <h1 id="gate-title">DINNER<br><em>IS SERVED.</em></h1>
+      <p>Enter the private screening room.</p>
+      <label><span>ACCESS PASSWORD</span><input id="access-password" name="access-password" autocomplete="current-password" type="password" placeholder="••••••••" required></label>
+      <button type="submit">Enter presentation <b>↗</b></button>
+      <small id="access-error" hidden>That password is not recognised.</small>
+    </form>
+  </section>
+
+  <main id="presentation">
+    <nav class="nav" id="nav">
+      <a class="brand" href="#top"><span>KILL</span><i>✦</i><b>COOK’EM</b></a>
+      <div class="nav-links"><a href="#film">The film</a><a href="#roles">The roles</a><a href="#world">The world</a><a href="#vision">The vision</a></div>
+      <button class="open-modal">Request screenplay <span>↗</span></button>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="grain"></div><div class="hero-art"></div><div class="hero-wash"></div>
+      <div class="hero-copy">
+        <p class="kicker animate a0"><i></i> CONFIDENTIAL FEATURE FILM PRESENTATION</p>
+        <h1 class="animate a1"><small>THE GALAXY INVADED.</small><strong>DINNER<br><em>IS SERVED.</em></strong></h1>
+        <p class="logline animate a2">A swaggering sci-fi action-comedy where a former Navy SEAL turned White House chef discovers the aliens invading Earth are delicious—and eating them may be humanity’s only chance to survive.</p>
+        <div class="hero-actions animate a3"><a href="#film">Discover the film <span>↓</span></a><button class="open-modal">Request screenplay <span>↗</span></button></div>
+      </div>
+      <div class="hero-bottom"><div><b>SCI-FI</b><span>ACTION-COMEDY</span></div><div><b>21ZERO</b><span>GAMBLING ADVENTURE</span></div><div><b>HARD ROCK</b><span>ATTITUDE &amp; SOUND</span></div><p>ORIGINAL MOTION PICTURE · CONFIDENTIAL</p></div>
+    </section>
+
+    <div class="marquee"><div>BLACKJACK <i>✦</i> BLOOD <i>✦</i> MEAT <i>✦</i> NERVE <i>✦</i> FREEDOM <i>✦</i> BLACKJACK <i>✦</i> BLOOD <i>✦</i> MEAT <i>✦</i> NERVE <i>✦</i> FREEDOM <i>✦</i></div></div>
+
+    <section class="premise paper" id="film">
+      <header class="section-head reveal"><p>THE FILM / 001</p><span>FEATURE TREATMENT DEVELOPED · SCREENPLAY AVAILABLE</span></header>
+      <div class="premise-grid">
+        <h2 class="display reveal">MAVERICK<br>MEETS<br><em>STARSHIP<br>TROOPERS.</em></h2>
+        <div class="premise-copy reveal">
+          <p class="lead">A White House buddy comedy. A savage alien war. A neon death casino.</p>
+          <p>When animal-like aliens destroy Earth’s food supply, Kill Cook’em discovers their flesh can heal humans and grant extraordinary powers. Five years later, he attempts to end the war by building 21Zero—a casino where humans gamble blood and aliens gamble their bodies.</p>
+          <blockquote>“Bold, muscular, irreverent and unapologetically entertaining.”</blockquote>
+        </div>
+      </div>
+      <div class="tone-strip reveal"><span><b>ACT I</b> PANCAKES AT MIDNIGHT</span><i>→</i><span><b>ACT II</b> EAT THE INVASION</span><i>→</i><span><b>ACT III</b> BEAT THE HOUSE</span></div>
+    </section>
+
+    <section class="friendship">
+      <div class="friend-art"></div>
+      <div class="friend-copy reveal">
+        <p class="section-label">THE HEART / 002</p>
+        <h2>THEY CAN SAVE<br>THE WORLD.<br><em>IF THEY STOP<br>COMPETING.</em></h2>
+        <p>Kill and President Daniels are best friends, workout partners and relentless gambling rivals. Their chemistry is the engine beneath the spectacle: two enormously capable men behaving like competitive teenagers while Agent Steele tries to keep them alive.</p>
+        <div><b>KILL</b><span>Care disguised as bravado</span><b>DANIELS</b><span>Intelligence disguised as charm</span></div>
+      </div>
+    </section>
+
+    <section class="roles paper" id="roles">
+      <header class="section-head reveal"><p>MEET THE PLAYERS / 003</p><span>SELECT A CHARACTER</span></header>
+      <div class="role-stage reveal">
+        <div class="role-image" id="role-image-wrap"><img id="role-image" src="assets/art/kill-warrior.webp" alt="Killian Kill Cook’em concept art"><span>CHARACTER CONCEPT ART</span></div>
+        <div class="role-copy">
+          <p id="role-billing">The action-comedy anchor</p><h2 id="role-name">Killian “Kill” Cook’em</h2>
+          <blockquote id="role-quote">“Freedom tastes better charbroiled.”</blockquote>
+          <p class="role-desc" id="role-desc">A former Navy SEAL turned White House executive chef: enormous, charismatic, disciplined and genuinely gifted in the kitchen. Cooking is how he cares for people. Violence is what he uses when someone interrupts dinner.</p>
+          <div class="role-promise"><b>THE CHARACTER PROMISE</b><span id="role-promise">Physical comedy with real heart, explosive action and a franchise-leading hero.</span></div>
+        </div>
+      </div>
+      <div class="role-tabs reveal">
+        <button class="active" data-role="0"><span>01</span><b>Killian “Kill” Cook’em</b><small>The action-comedy anchor</small></button>
+        <button data-role="1"><span>02</span><b>President Daniels</b><small>The underestimated wartime president</small></button>
+        <button data-role="2"><span>03</span><b>Agent Steele</b><small>The lethal straight arrow</small></button>
+        <button data-role="3"><span>04</span><b>Admiral Baa</b><small>The theatrical galactic tyrant</small></button>
+      </div>
+    </section>
+
+    <section class="setpieces" id="world">
+      <header class="section-head reveal"><p>SIGNATURE SET PIECES / 004</p><span>FROM THE WHITE HOUSE TO THE EDGE OF THE GALAXY</span></header>
+      <h2 class="display reveal">A FILM THAT<br><em>KEEPS GETTING BIGGER.</em></h2>
+      <div class="setpiece-grid">
+        <article class="reveal"><span>01</span><h3>Pancakes at Midnight</h3><p>A White House blackjack game becomes a kitchen siege. Frying pans, boiling syrup and a crème brûlée torch turn breakfast into war.</p></article>
+        <article class="reveal"><span>02</span><h3>The First Bite</h3><p>Mortally wounded, Kill bites the hog soldier who impaled him—and discovers that alien meat tastes like bacon, heals injuries and grants impossible strength.</p></article>
+        <article class="reveal"><span>03</span><h3>Five Years of War</h3><p>Humanity fights back by eating the invasion. Every species becomes a new temporary superpower, and every victory pushes Kill closer to mutation.</p></article>
+        <article class="reveal"><span>04</span><h3>Welcome to 21Zero</h3><p>Kill builds a neon intergalactic death casino where humans wager blood, aliens wager bodies and blackjack becomes the last diplomatic language in the galaxy.</p></article>
+        <article class="reveal"><span>05</span><h3>The House Always Cheats</h3><p>Baa’s true plan emerges: the casino is breeding a hybrid species. Kill must beat the game, break the house and turn the galaxy against its greatest showman.</p></article>
+        <article class="reveal"><span>06</span><h3>The Final Feast</h3><p>Gunfire, cards, alien blood, hard-rock swagger and a hero gambling everything on one final hand.</p></article>
+      </div>
+    </section>
+
+    <section class="powers paper">
+      <header class="section-head reveal"><p>THE HOOK / 005</p><span>IF YOU CAN KILL IT, YOU CAN COOK IT</span></header>
+      <div class="powers-intro reveal"><h2>ALIEN MEAT<br><em>IS POWER.</em></h2><p>Every enemy is simultaneously a threat, a meal and a biological weapon. Different species grant different abilities. Mixing them makes Kill stronger—and dangerously less human.</p></div>
+      <div class="power-grid reveal">
+        <div><b>HOG</b><strong>Rapid healing</strong><span>Strength · pain resistance</span></div>
+        <div><b>CHICKEN</b><strong>Faster reflexes</strong><span>Agility · reaction time</span></div>
+        <div><b>BULL</b><strong>Explosive power</strong><span>Durability · impact resistance</span></div>
+        <div><b>AQUATIC</b><strong>Pressure resistance</strong><span>Breath · improved vision</span></div>
+        <div><b>INSECT</b><strong>Wall adhesion</strong><span>Senses · coordination</span></div>
+        <div><b>GOAT</b><strong>Tactical clarity</strong><span>Balance · confidence</span></div>
+      </div>
+    </section>
+
+    <section class="casino">
+      <div class="casino-art"></div>
+      <div class="casino-copy reveal">
+        <p>THE THIRD ACT / 006</p><h2>WELCOME TO<br><em>21ZERO.</em></h2>
+        <h3>Earth’s last hope is a casino where everybody has skin in the game.</h3>
+        <p>Humans gamble blood. Aliens gamble their bodies. Kill gambles his humanity. Beneath the lights, music and impossible spectacle, Admiral Baa is secretly using every wager to engineer the galaxy’s next dominant species.</p>
+        <div><span>NEON-SOAKED</span><span>HIGH-STAKES</span><span>LETHAL BLACKJACK</span></div>
+      </div>
+    </section>
+
+    <section class="vision paper" id="vision">
+      <header class="section-head reveal"><p>THE CINEMATIC PROMISE / 007</p><span>AUDIENCE-FIRST EVENT ENTERTAINMENT</span></header>
+      <div class="vision-grid">
+        <div class="vision-title reveal"><h2>LOUD.<br>PHYSICAL.<br><em>DELICIOUSLY<br>WRONG.</em></h2></div>
+        <div class="vision-notes reveal">
+          <article><b>CAMERA</b><h3>Heroic scale. Comic precision.</h3><p>Muscular action photographed with clarity, punctured by character comedy rather than undercut by it.</p></article>
+          <article><b>CREATURES</b><h3>Animals, evolved for war.</h3><p>Readable silhouettes, practical texture and sophisticated alien technology built on a brutally simple worldview: if you need it, take it.</p></article>
+          <article><b>MUSIC</b><h3>A hard-rock heartbeat.</h3><p>Heavy electric guitar, arena-sized riffs and swagger—cooking filmed like combat; combat staged like a headline act.</p></article>
+          <article><b>TONE</b><h3>The joke never kills the stakes.</h3><p>Big laughs, genuine danger and an emotional centre rooted in loyalty, friendship and feeding the people you love.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="franchise">
+      <div class="franchise-copy reveal">
+        <p>BEYOND THE FEATURE / 008</p><h2>ONE GREAT FILM.<br><em>A WHOLE UNIVERSE<br>READY BEHIND IT.</em></h2>
+        <p>The feature is designed to stand completely on its own. The world already supports adult animation, two playable game prototypes, music and consumer products—creating long-term character value without asking the film to advertise anything else.</p>
+      </div>
+      <div class="franchise-cards reveal"><div><span>01</span><b>LIVE-ACTION FEATURE</b><small>THE PRIORITY</small></div><div><span>02</span><b>ADULT ANIMATION</b><small>SERIES CONCEPT</small></div><div><span>03</span><b>ALL YOU CAN KILL</b><small>PLAYABLE PROTOTYPE</small></div><div><span>04</span><b>COOKEM21ZERO</b><small>BLACKJACK PROTOTYPE</small></div></div>
+    </section>
+
+    <section class="final">
+      <div class="grain"></div><div class="final-art"></div>
+      <div class="final-copy reveal">
+        <p>THE STORY STARTS HERE / 009</p><h2>COME<br><em>HUNGRY.</em></h2>
+        <p>A bold new action-comedy universe—with unforgettable characters, a fully developed feature story and enough firepower to make dinner the most dangerous event in the galaxy.</p>
+        <div><button class="open-modal">Enter 21Zero <span>↗</span></button><button class="open-modal">Open private materials</button></div>
+      </div>
+    </section>
+
+    <footer><a class="brand" href="#top"><span>KILL</span><i>✦</i><b>COOK’EM</b></a><p>CONFIDENTIAL FEATURE FILM PRESENTATION</p><p>© 2026 KILL COOK’EM. ALL RIGHTS RESERVED.</p></footer>
+  </main>
+
+  <div class="modal-bg" id="materials-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" id="close-modal" aria-label="Close">×</button>
+      <p class="section-label">PRIVATE MATERIALS</p><h2 id="modal-title">LET’S MAKE<br><em>DINNER.</em></h2>
+      <p>Enter deeper into the world of Kill Cook’em through the screenplay, feature treatment and visual materials.</p>
+      <div class="materials"><span><b>01</b> Feature screenplay</span><span><b>02</b> Revised film treatment</span><span><b>03</b> Character &amp; visual materials</span><span><b>04</b> Franchise universe</span></div>
+      <p class="modal-note">CONTACT DETAILS CAN BE CONNECTED TO THIS BUTTON WHEN PROVIDED.</p>
+      <button class="primary" id="return-presentation">Return to presentation</button>
+    </div>
+  </div>
+</body>
+</html>
